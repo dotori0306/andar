@@ -1,0 +1,137 @@
+
+footer{
+    margin: 0;
+    background: #fafafa;
+    padding: 40px 16px 40px;
+    color: #555;
+    line-height: 21px;
+
+    .cs-area{
+        padding-bottom: 30px;
+
+        .ft-title{
+            font-size: 13px;
+            line-height: 16px;
+            font-weight: bold;
+            padding-bottom: 15px;
+            
+        }
+
+        .num{
+            font-size: 18px;
+            line-height: 21px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        p{
+            font-size: 13px;
+            line-height: 16px;
+            font-weight: 400;
+        }
+    }
+
+
+    .sns-area{
+
+        .sns-wrap{
+            // float: left;
+            overflow: hidden;
+
+            .sns-list{
+                float: left;
+
+                a{
+                    display: block;
+                    margin-right: 25px;
+                    width: 22px;height: 22px;
+                    
+                    &.link-facebook{background: url(../img/icon_facebook.png) center/contain no-repeat;}
+                    &.link-youtube{background: url(../img/icon_YouTube.png) center/contain no-repeat;}
+                    &.link-instagram{background: url(../img/icon_Instagram.png) center/contain no-repeat;}
+                    
+                }
+
+            }
+        }
+        
+    }
+
+    
+
+    .corp-area{
+        font-size: 12px;
+        line-height: 21px;
+        font-weight: bold;
+        padding: 30px 0 30px;
+        color: #777;
+
+        ul{overflow: hidden;
+
+            li{float: left;
+                // padding-right: 10px;
+                // margin-right: 5px;
+                position: relative;
+
+                +li::before{
+                    content: "";
+                    display: inline-block;
+                    width: 1px;
+                    height: 11px;
+                    background-color: #ccc;
+                    vertical-align: -1px;
+                    margin: 0 8px;
+                }
+            
+            }
+        }
+    }
+
+
+    .address-area{
+        address{
+            font-size: 11px;
+
+            i{
+                content: "";
+                display: inline-block;
+                width: 1px;
+                height: 11px;
+                background-color: #ccc;
+                vertical-align: -1px;
+                margin: 0 8px;
+            }   
+        }
+
+        .copyright{
+            font-size: 11px;
+            font-weight: 600;
+            line-height: 13px;
+            letter-spacing: -0.02em;
+            color: #777;
+            margin: 30px 0 0;
+        }
+    }
+
+
+    .marks-area{
+        margin-top: 24px;
+
+        a{margin-right: 22px;vertical-align: bottom;}
+
+        .marks-ftc{
+            img{width: 45px;}
+        }
+
+        .marks-symantec{
+            img{width: 36px;}
+        }
+
+        .marks-kg{
+            img{width: 27px;}
+        }
+    }
+
+//footer
+}

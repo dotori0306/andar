@@ -1,0 +1,52 @@
+
+
+//woff 모던브라우저에서 지원가능
+//woff2 woff의 20% 압축버전
+//eot ie 지원안돼서 써주는거
+
+//svg 절대 깨지지 않는 백터이미지 코딩으로 만든 이미지
+
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-Semibold.woff2') format('woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
+
+
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url('../font/NotoSansKR-Light-Hestia.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url('../font/NotoSansKR-Regular-Hestia.woff') format('woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url('../font/NotoSansKR-Medium-Hestia.woff') format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url('../font/NotoSansKR-Bold-Hestia.woff') format('woff');
+    font-weight: 300;
+}

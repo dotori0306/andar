@@ -1,0 +1,109 @@
+.prd-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .prd-item{
+        width: calc(50% - 10px);
+        padding-bottom: 50px;
+
+        .img-wrap{
+            img{width: 100%;object-fit: cover;}
+        }
+
+        .txt-wrap {
+            padding: 15px 5% 0;
+            box-sizing: border-box;
+
+            .review {
+                color: #8e1f29;
+                font-size: 13px;
+                margin-top: 16px;
+                display: block;
+                font-weight: 600;
+            }
+
+            .prd-name{
+                margin: 10px 0;
+                line-height: 16px;
+                font-size: 13px;
+                font-weight: 400;
+                display: block;
+            }
+
+            .price-box{
+                .percent{
+                    color: #8E1F29;
+                    margin-right: 5px;
+                    vertical-align: top;
+                    font-weight: 600;
+                }
+
+                .price-ori{
+                    font-size: 13px;
+                    font-weight: 400;
+                    color: #8d8d8d;
+                    text-decoration: line-through;
+                }
+                
+            }
+
+            .etc-box{
+                color: #999;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 11px;
+                margin-top: 9px;
+                display: block;
+            }
+
+            .badge-box{
+                margin-top: 13px;
+
+                span{
+                    border: 1px solid #8e1f29;
+                    color: #8e1f29;
+                    font-size: 9px;
+                    line-height: 9px;
+                    font-weight: 500;
+                    padding: 5px 6px;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+
+    .sc-lookbook &{
+        display: block;
+        
+        .prd-item{
+            display: flex;
+            width: 100%;
+            padding: 20px 0;
+            box-sizing: border-box;
+
+            &+.prd-item{border-top: 1px solid #eee;}
+
+            .img-wrap{
+                width: 100px;
+                height: 165px;
+                img{height: 100%;}
+            }
+
+            .txt-wrap{
+                flex: 1;
+                padding: 0 28px;
+                box-sizing: border-box;
+            }
+
+            .review{margin: 0;}
+        }
+    }
+
+    .sc-category & {
+        flex-wrap: nowrap;
+        justify-content: normal;
+
+        .prd-item{width: 100%;}
+    }
+}
